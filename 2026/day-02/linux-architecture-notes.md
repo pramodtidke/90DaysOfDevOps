@@ -50,8 +50,12 @@
 
 3.  What systemd does and why it matters
 
-         systemd is the init system and service manager in modern Linux distributions. It is the first process started by the kernel (PID 1) during boot and is responsible for initializing the system. It starts and manages system services, handles dependencies between services, monitors them, and restarts them if they fail. It also manages logging, devices, mounts, timers, and system states.”
+         systemd is the init system and service manager in modern Linux distributions.
+         It is the first process started by the kernel (PID 1) during boot and is responsible for initializing the system.
+         It starts and manages system services, handles dependencies between services, monitors them, and restarts them if they fail.
+         It also manages logging, devices, mounts, timers, and system states.”
 
     Why it matters:
 
-         systemd improves boot performance by starting services in parallel, ensures better reliability by automatically restarting failed services, and provides a unified way to manage system processes using tools like systemctl.
+         systemd improves boot performance by starting services in parallel, ensures better reliability by automatically restarting failed services,
+         and provides a unified way to manage system processes using tools like systemctl.
