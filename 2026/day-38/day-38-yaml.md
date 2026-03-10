@@ -29,10 +29,6 @@ Create `person.yaml` that describes yourself with:
 
 Code: person.yml
 
-->>>
-
-    ---
-
 name: personal information
 on:
 workflow_dispatch:
